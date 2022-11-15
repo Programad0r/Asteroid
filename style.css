@@ -1,0 +1,129 @@
+body
+{
+    font: normal 16px/16px "Consolas", monospace;
+}
+
+.b-panel
+{
+    padding: 16px;
+}
+
+.b-panel_right
+{
+    float: right;
+}
+
+
+#g-game
+{
+    font: normal 16px/16px "Consolas", monospace;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 48px);
+    min-width: 320px;
+    min-height: 240px;
+}
+
+.b-msgbox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    display: none;
+}
+
+.b-score
+{
+    list-style: decimal outside;
+    padding-left: 32px;
+}
+
+.b-score__input
+{
+    padding: 4px;
+    outline: 0;
+}
+
+.button:hover,
+.button:focus
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* Cores do Jogos */
+
+.m-green
+{
+    background: #010;
+    color: #0F0;
+    text-shadow: 0px 0px 5px #0d0;
+}
+
+.m-green .b-msgbox
+{
+    background: #010;
+}
+
+.m-green .b-score__input,
+.m-green .b-button
+{
+    font: normal 16px/16px "Consolas", monospace;
+    background: #010;
+    color: #0F0;
+    text-shadow: 0px 0px 5px #0D0;
+    border: 1px solid #0F0;
+}
+
+
+.m-white
+{
+    background: #000;
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.m-white .b-msgbox
+{
+    background: #000;
+}
+
+.m-white .b-score__input,
+.m-white .b-button
+{
+    font: normal 16px/16px "Consolas", monospace;
+    background: #000;
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
+.m-blue
+{
+    background: #001;
+    color: #09F;
+    text-shadow: 0px 0px 5px #09F;
+}
+
+.m-blue .b-msgbox
+{
+    background: #001;
+}
+
+.m-blue .b-score__input,
+.m-blue .b-button
+{
+    font: normal 16px/16px "Consolas", monospace;
+    background: #001;
+    color: #09F;
+    text-shadow: 0px 0px 5px #09F;
+    border: 1px solid #09F;
+}
